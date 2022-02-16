@@ -1,8 +1,10 @@
 spring:
   application:
-    name: "servicio-empleados"
+    name: servicio-empleados
+
 server:
-  port: 8080
+  port: 9001
+
 eureka:
   instance:
     leaseRenewalIntervalInSeconds: 5
